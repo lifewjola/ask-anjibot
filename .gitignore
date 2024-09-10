@@ -21,5 +21,4 @@ __pycache__/
 # Ignore Python packages
 *.egg-info/
 
-anjibot_log.log
-
+anjibot-435113-7c0712b3fd28.json

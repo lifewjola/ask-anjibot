@@ -1,3 +1,9 @@
+'''
+TO-DO
+- Update datasets to represent current state of things and wider range of questions
+- Add more intents variation to docs link and lecturers logic functions
+'''
+
 # Required imports
 import streamlit as st
 import json
@@ -5,7 +11,8 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-import logging
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, trim_messages
@@ -238,27 +245,46 @@ def handle_query(query):
         response = answer_general_query(query)
     return response
 
-# Logging
-def log_query_response(query, response):
-    logging.basicConfig(
-        filename="anjibot_log.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(message)s",
-    )
-    logging.info(f"User query: {query}")
-    logging.info(f"Bot response: {response}")
+# Path to your service account key file
+SERVICE_ACCOUNT_FILE = 'anjibot-435113-7c0712b3fd28.json'
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+
+# Create credentials and build the service
+creds = service_account.Credentials.from_service_account_file(
+    SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+service = build('sheets', 'v4', credentials=creds)
+
+# The ID and range of the spreadsheet.
+SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
+RANGE_NAME = 'Sheet1!A1'
+
+def append_to_sheet(user_query, bot_response):
+    values = [
+        [user_query, bot_response]
+    ]
+    body = {
+        'values': values
+    }
+    result = service.spreadsheets().values().append(
+        spreadsheetId=SPREADSHEET_ID,
+        range=RANGE_NAME,
+        valueInputOption='RAW',
+        body=body
+    ).execute()
+
 
 # Streamlit app
 def main():
-    st.title("Ask Anjibot")
+    append_to_sheet("Hi", "Hello")
+    # st.title("Ask Anjibot")
     
-    # User input field
-    user_query = st.text_input("Hello! I'm Anjibot, CS Group A AI Course Rep at your service ><. How can I help you?")
+    # # User input field
+    # user_query = st.text_input("Hello! I'm Anjibot, CS Group A AI Course Rep at your service ><. How can I help you?")
     
-    if user_query:
-        response = handle_query(user_query)
-        log_query_response(user_query, response)
-        st.write(response)
+    # if user_query:
+    #     response = handle_query(user_query)
+    #     append_to_sheet(user_query, response)
+    #     st.write(response)
 
 if __name__ == "__main__":
     main()
