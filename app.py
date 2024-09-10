@@ -245,17 +245,26 @@ def handle_query(query):
         response = answer_general_query(query)
     return response
 
-# Path to your service account key file
-SERVICE_ACCOUNT_FILE = 'anjibot-435113-7c0712b3fd28.json'
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+secrets = st.secrets["google"]
+creds_info = {
+    "type": secrets["type"],
+    "project_id": secrets["project_id"],
+    "private_key_id": secrets["private_key_id"],
+    "private_key": secrets["private_key"].replace('\\n', '\n'),
+    "client_email": secrets["client_email"],
+    "client_id": secrets["client_id"],
+    "auth_uri": secrets["auth_uri"],
+    "token_uri": secrets["token_uri"],
+    "auth_provider_x509_cert_url": secrets["auth_provider_x509_cert_url"],
+    "client_x509_cert_url": secrets["client_x509_cert_url"]
+}
 
 # Create credentials and build the service
-creds = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+creds = service_account.Credentials.from_service_account_info(creds_info, scopes=['https://www.googleapis.com/auth/spreadsheets'])
 service = build('sheets', 'v4', credentials=creds)
 
 # The ID and range of the spreadsheet.
-SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
+SPREADSHEET_ID = st.secrets["app"]["SPREADSHEET_ID"]
 RANGE_NAME = 'Sheet1!A1'
 
 def append_to_sheet(user_query, bot_response):
@@ -272,19 +281,17 @@ def append_to_sheet(user_query, bot_response):
         body=body
     ).execute()
 
-
 # Streamlit app
 def main():
-    append_to_sheet("Hi", "Hello")
-    # st.title("Ask Anjibot")
+    st.title("Ask Anjibot")
     
-    # # User input field
-    # user_query = st.text_input("Hello! I'm Anjibot, CS Group A AI Course Rep at your service ><. How can I help you?")
+    # User input field
+    user_query = st.text_input("Hello! I'm Anjibot, CS Group A AI Course Rep at your service ><. How can I help you?")
     
-    # if user_query:
-    #     response = handle_query(user_query)
-    #     append_to_sheet(user_query, response)
-    #     st.write(response)
+    if user_query:
+        response = handle_query(user_query)
+        st.write(response)
+        append_to_sheet(user_query, response)
 
 if __name__ == "__main__":
     main()
