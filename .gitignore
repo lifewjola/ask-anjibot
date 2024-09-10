@@ -21,8 +21,5 @@ __pycache__/
 # Ignore Python packages
 *.egg-info/
 
-# Ignore data files in the Datasets directory
-Datasets/
-
 anjibot_log.log
 
