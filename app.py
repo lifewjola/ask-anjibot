@@ -10,8 +10,6 @@ from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, trim_messages
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from operator import itemgetter
-from langchain_core.runnables import RunnablePassthrough
 from dotenv import load_dotenv
 import os
 
@@ -44,7 +42,7 @@ lecturer_data = pd.read_csv("Datasets/lecturers.csv").astype(str)
 doc_link_data = pd.read_csv("Datasets/docs_link.csv").astype(str)
 
 # Function to load Q&A data from a JSON file
-filepath = 'C:\\Users\\HP\\Anjibot 2.0\\ChatBot\\Datasets\\anjibot_data.json'
+filepath = 'Datasets/anjibot_data.json'
 
 def load_qa_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:

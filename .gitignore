@@ -23,3 +23,6 @@ __pycache__/
 
 # Ignore data files in the Datasets directory
 Datasets/
+
+anjibot_log.log
+
