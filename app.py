@@ -1,11 +1,17 @@
 '''
 TO-DO
 - Update datasets to represent current state of things and wider range of questions
-- Add more intents variation to docs link and lecturers logic functions
+- Add more intents variation using list/ dictionaries to docs link logic functions
+- Improve the doc_link function
+- Add more stop words to custom similarity function
+- More testing 
+- Improve contextual memory functionality 
+    - (should be able to recall previous chat for non groq queries )
 '''
 
 # Required imports
 import streamlit as st
+import time
 import json
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -116,7 +122,7 @@ def normalize_text(text):
     return set(normalized_words)
 
 # custom similarity matching function
-def custom_similarity(text, query, exceptions=["Dr. ", "the", "I", "in", "to", "close", "i", "o" "O", "dr", "Dr", "dr."]):
+def custom_similarity(text, query, exceptions=["Dr. ", "of", "the", "I", "in", "to", "close", "i", "o" "O", "dr", "Dr", "dr."]):
     # Normalize text and query
     text_words = normalize_text(text)
     query_words = normalize_text(query)
@@ -233,7 +239,7 @@ def get_intent(query):
     else:
         return "general"
 
-# Define Gradio interface inputs and outputs
+# handle queries
 def handle_query(query):
     intent = get_intent(query)
 
@@ -243,8 +249,11 @@ def handle_query(query):
         response =  answer_doc_link_query(query)
     else:
         response = answer_general_query(query)
-    return response
+    for word in response.split():
+        yield word + " "
+        time.sleep(0.02)
 
+# streamlit secrets
 secrets = st.secrets["google"]
 creds_info = {
     "type": secrets["type"],
@@ -259,7 +268,7 @@ creds_info = {
     "client_x509_cert_url": secrets["client_x509_cert_url"]
 }
 
-# Create credentials and build the service
+# Create credentials and build the service for spreadsheet login
 creds = service_account.Credentials.from_service_account_info(creds_info, scopes=['https://www.googleapis.com/auth/spreadsheets'])
 service = build('sheets', 'v4', credentials=creds)
 
@@ -281,17 +290,36 @@ def append_to_sheet(user_query, bot_response):
         body=body
     ).execute()
 
-# Streamlit app
+# streamlit app
 def main():
     st.title("Ask Anjibot")
-    
-    # User input field
-    user_query = st.text_input("Hello! I'm Anjibot, CS Group A AI Course Rep at your service ><. How can I help you?")
-    
-    if user_query:
-        response = handle_query(user_query)
-        st.write(response)
-        append_to_sheet(user_query, response)
+
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Accept user input
+    if prompt := st.chat_input("Ask me anything"):
+        # Add user message to chat history
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        # Display user message in chat message container
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
+        # Display anjibot's response in chat message container
+        with st.chat_message("assistant"):
+            response = st.write_stream(handle_query(prompt))
+        # Add anjibot's response to chat history
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+        # Log the query and response to Google Sheets
+        append_to_sheet(prompt, response)
+
 
 if __name__ == "__main__":
     main()

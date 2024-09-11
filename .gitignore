@@ -21,4 +21,12 @@ __pycache__/
 # Ignore Python packages
 *.egg-info/
 
+# ignore google cloud secrets
 anjibot-435113-7c0712b3fd28.json
+
+# Ignore streamlit secrets 
+secrets.toml
+
+# Ignore new version and data of app
+app_groq.py
+qa_answers.txt
