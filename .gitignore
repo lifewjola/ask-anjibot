@@ -25,7 +25,7 @@ __pycache__/
 anjibot-435113-7c0712b3fd28.json
 
 # Ignore streamlit secrets 
-secrets.toml
+.streamlit/secrets.toml
 
 # Ignore new version and data of app
 app_groq.py
