@@ -251,7 +251,7 @@ def handle_query(query):
         response = answer_general_query(query)
     for word in response.split():
         yield word + " "
-        time.sleep(0.02)
+        time.sleep(0.05)
 
 # streamlit secrets
 secrets = st.secrets["google"]
