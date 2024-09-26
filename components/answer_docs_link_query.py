@@ -22,7 +22,7 @@ def answer_doc_link_query(query):
     course_code_prefix = ["cosc", "geds", "ged", "math", "stat", "stats", "seng", "itgy"]
     if any(word in query for word in course_code_prefix):
         if max_score < 2:
-            return "I'm sorry, I couldn't find any information on the lecturer you're asking about."
+            return "I'm sorry, I couldn't find any information on the course you're asking about."
 
         elif max_score >= 1:
             if "slide" in query or "past questions" in query or "slides" in query:
