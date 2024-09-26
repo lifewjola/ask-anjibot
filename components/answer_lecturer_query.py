@@ -20,6 +20,7 @@ def answer_lecturer_query(query):
         if score > max_score:
             max_score = score
             best_match = row
+
     course_code_prefix = ["cosc", "geds", "ged", "math", "stat", "stats", "seng", "itgy"]
     if any(word in query for word in course_code_prefix):
         if max_score < 2:
@@ -39,3 +40,4 @@ def answer_lecturer_query(query):
                 return f"{best_match['name']} is the {best_match['course']} ({best_match['course_code']}) lecturer."
         else:
             return answer_general_query(query)
+        
