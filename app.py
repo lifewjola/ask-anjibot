@@ -10,7 +10,7 @@ TO-DO
 
 # Required imports
 import streamlit as st
-from components.logging import append_to_sheet
+from components.anjibot_logging import append_to_sheet
 from components.handle_query import handle_query
 
 
