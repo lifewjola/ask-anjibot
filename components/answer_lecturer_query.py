@@ -4,7 +4,7 @@ import numpy as np
 from components.custom_matching import custom_similarity 
 from components.answer_general_query import answer_general_query
 
-file_path = "C:/Users/HP/Anjibot 2.0/AskAnjibot/Datasets/lecturers.csv"
+file_path = "Datasets/lecturers.csv"
 lecturer_data = pd.read_csv(file_path).astype(str)
 
 def answer_lecturer_query(query):

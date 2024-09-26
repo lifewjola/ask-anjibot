@@ -3,7 +3,7 @@ import pandas as pd
 from components.custom_matching import custom_similarity
 from components.answer_general_query import answer_general_query
 
-doc_link_data = pd.read_csv("C:/Users/HP/Anjibot 2.0/AskAnjibot/Datasets/docs_link.csv").astype(str)
+doc_link_data = pd.read_csv("Datasets/docs_link.csv").astype(str)
 
 def answer_doc_link_query(query):
     query = query.lower()

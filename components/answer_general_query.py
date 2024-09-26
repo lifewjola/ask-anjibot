@@ -8,7 +8,7 @@ from components.groq_response import get_groq_response
 
 
 model = SentenceTransformer('all-MiniLM-L6-v2') 
-dataset_path = "C:/Users/HP/Anjibot 2.0/AskAnjibot/Datasets/anjibot_data.json"
+dataset_path = "Datasets/anjibot_data.json"
 
 def load_qa_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
