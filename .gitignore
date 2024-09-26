@@ -30,3 +30,5 @@ anjibot-435113-7c0712b3fd28.json
 # Ignore new version and data of app
 app_groq.py
 qa_answers.txt
+rag.py
+anjibot_data.md

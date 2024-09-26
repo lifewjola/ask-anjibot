@@ -1,15 +1,7 @@
 [
     {
 	    "question": "I need the email of the siwes coordinator",
-        "answer": "The email of the siwes coordinator: izanga@babcock.edu.ng"    
-    },
-    {
-	    "question": "I want to submit my acceptance letter",
-        "answer": "I'm afraid coach Fola is no longer collecting acceptance letter. But you can try! Send the soft copy to someone who's currently in school and ask them to print and submit it for you. If you plead well enough, coach Fola might collect it."    
-    },
-    {
-	    "question": "I missed the Friday deadline, couldn't upload my weekly report on the siwes portal website, what can I do?",
-        "answer": "If you forgot to upload your weekly report on the siwes portal, wait till Monday and try again. Also set an alarm so that you don't forget next week!"    
+        "answer": "The email of Dr. Izang Aaron the siwes coordinator: izanga@babcock.edu.ng"    
     },
     {
 	    "question": "Am I supposed to add diagrams in my logbook?",
@@ -52,10 +44,6 @@
         "answer": "Coach Fola's office is at SAT, A110. You can also check F204 at SAT and NH."    
     },
     {
-	    "question": "Who are we submitting the ITF form to?",
-        "answer": "You're to submit the ITF form to the SIWES Coordinator Dr. Izang upon resumption."    
-    },
-    {
 	    "question": "SIWES coordinator's phone number",
         "answer": "Dr. Izang (the SIWES coordinator) phone number: 08038692651"    
     },
@@ -76,7 +64,7 @@
         "answer": "Oh, I'm sorry to hear that. Kindly inform Tekena (+2348077141863). He's the class exco in charge of keeping records of absenteeism. Please do not call him. Just send a message introducing yourself, stating your reason for absenteeism, and don't forget to attach evidence i.e. BUTH receipt. Take care :)"    
     },
     {
-	    "question": "I'm not in school at the moment so I can't make it to class.",
+	    "question": "I'm not in school at the moment so I can't make it to class who do i tell.",
         "answer": "Oh, okay buddy. Kindly inform Tekena (+2348077141863). He's the class exco in charge of keeping records of absenteeism. Please do not call him. Just send a message introducing yourself, stating your reason for absenteeism, and don't forget to attach evidence."    
     },
     {
@@ -125,11 +113,11 @@
     },
     {
         "question": "When can I start SIWES",
-        "answer": "SIWES is supposed to be for a minimum of 20 weeks (January to June),."    
+        "answer": "SIWES is supposed to be for a minimum of 20 weeks (January to June)."    
     },
     {
         "question": "When does next semester begin?",
-        "answer": "300 Level Post SIWES semester will begin July 1st, 2024."    
+        "answer": "400 Level 2nd Semester will begin January 4th, 2025 (tentatively) and the first one month will be online."    
     },
     {
         "question": "I'm a transfer student, I need to join the class groupchat.",
@@ -153,22 +141,22 @@
     },
     {
         "question": "Where's the school officer's office?",
-        "answer": "Mr. Akalawu Alexander A, the school officer's office is at NH, right on the top floor."    
+        "answer": "Dr. Akalawu Alexander A, the school officer's office is at NH, right on the top floor."    
     },
     {
         "question": "The school officer's phone number",
-        "answer": "Mr. Akalawu Alexander A, the school officer's phone number: +2348035064606."    
+        "answer": "Dr. Akalawu Alexander A, the school officer's phone number: +2348035064606."    
     },
     {
         "question": "I no fit come class o how far",
         "answer": "Oh, I'm sorry to hear that. Kindly inform Tekena (+2348077141863). He's the class exco in charge of keeping records of absenteeism. Please do not call him. Just send a message introducing yourself, stating your reason for absenteeism, and don't forget to attach evidence i.e. BUTH receipt. Take care :)"    
     },
     {
-        "question": "Where Anji wey she no Dey available?",
+        "question": "Where's Anji wey she no Dey available?",
         "answer": "No vex boss, she dey fight other battles."    
     },
     {
-        "question": "Why's Anji not unavailable?",
+        "question": "Why's Anji not available?",
         "answer": "Don't be angry, friend. She's busy dealing with other challenges at the moment."    
     },
     {
@@ -196,24 +184,12 @@
         "answer": "Anjolaoluwa Ajayi, the main course rep of CS, phone number: 07057657787"    
     },
     {
-        "question": "Is there class today?",
-        "answer": "Craving a free day, init? The dynamic class timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"    
-    },
-    {
-        "question": "I won't use you for school work... I will use you to pour out my feelings.",
-        "answer": "I can't comprehend human feelings at this time. But here's a fluffy teddy to make you feel better🧸 <3"    
-    },
-    {
-        "question": "I need the bursary's phone number",
+        "question": "I need the bursary bursar phone number",
         "answer": "Sure! Here are the phone numbers of various people working in the bursary: Mr. Bright (08106874756), Mr. Aaron (08066828510), Mr. Mayowa (07034638444)"    
     },
     {
-        "question": "I need the registrar's phone number",
+        "question": "I need the registrar registry phone number",
         "answer": "Sure! Registrar's phone number: 08037141477, Deputy Registrar's phone number: 09070763310."    
-    },
-    {
-        "question": "What's up? How far?",
-        "answer": "Heyo! How can I help you today?"    
     },
     {
         "question": "I can't find GEDS 001 citizenship orientation",
@@ -233,31 +209,27 @@
     },
     {
         "question": "What assignments do we have?",
-        "answer": "This assignment log spreadsheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "This info tracker spreadsheet contains the info you need:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "When is the assignment due?",
-        "answer": "This assignment log spreadsheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "This info tracker spreadsheet contains the info you need:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "Who are we submitting the assignment to?",
-        "answer": "We usually submit our assignments to Emeka Ifeanyi who is the class exco in charge of assignment collection. You can contact him here (09020233535). But please, kindly refer to the assignment log sheet to confirm: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "We usually submit our assignments to Emeka Ifeanyi who is the class exco in charge of assignment collection. You can contact him here (09020233535). But please, kindly refer to the info tracker sheet to confirm:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "what assignment is due tomorrow?",
-        "answer": "The assignment deadline is specified in the assignment log sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "The assignment deadline is specified in the info tracker sheet:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "How many assignments do we have?",
-        "answer": "The outstanding assignments are specified in the assignment log spreadsheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "The outstanding assignments are specified in the info tracker spreadsheet:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "Did Dr. Mr. lecturer give us any assignment?",
-        "answer": "Please find all information related to assignments in the assignment log spreadsheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
-    },
-    {
-        "question": "How much is the school fees?",
-        "answer": "You can find this info on umis but here's a break down of BUCC school fees for the session: https://drive.google.com/file/d/1Wd0lcw3fQvUWgR5qmGj7b-PD-JfrJK8y/view?usp=drive_link"
+        "answer": "Please find all information related to assignments in the info tracker spreadsheet:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "how to register on UMIS",
@@ -269,11 +241,11 @@
     },
     {
         "question": "What courses are we to register for the semester?",
-        "answer": "Please find the courses for each semester here: https://docs.google.com/document/d/1zVgU2LL65ozYUfqjQKiFPUEx6mQS9c2-/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
+        "answer": "Please find the courses for each semester here: https://docs.google.com/document/d/1ZTYwhuSrGQIfu1qmhXgmtwj0_we9IC43/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
     },
     {
         "question": "course list for the semester?",
-        "answer": "Sure, you'll find the course list for each semester here: https://docs.google.com/document/d/1zVgU2LL65ozYUfqjQKiFPUEx6mQS9c2-/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
+        "answer": "Sure, you'll find the course list for each semester here: https://docs.google.com/document/d/1ZTYwhuSrGQIfu1qmhXgmtwj0_we9IC43/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
     },
     {
         "question": "I need a lecturer's phone number",
@@ -312,48 +284,16 @@
         "answer": "Sure! Here's the official group chat link for CS: https://chat.whatsapp.com/LJ9emOwoQDZ7Rz7y8XLHUb"
     },
     {
-        "question": "How are you?",
-        "answer": "Hey! I'm doing great, thanks for asking. How about you?"
-    },
-    {
-        "question": "Hi Anji",
-        "answer": "Hey! I'm Anjibot, how can I assist you today?"
-    },
-    {
-        "question": "What's up?",
-        "answer": "Not much, just here to help with anything you need. How can I assist you today?"
-    },
-    {
-        "question": "You're useless!",
-        "answer": "I'm really sorry if I haven't been helpful. Let me know how I can improve and assist you better!"
-    },
-    {
-        "question": "Thanks/ thank you",
-        "answer": "You're welcome! I'm here to make things easier for everyone. Feel free to reach out anytime you need assistance."
-    },
-    {
-        "question": "Hey, can I ask you a question?",
-        "answer": "Absolutely! Feel free to ask me anything you need help with."
-    },
-    {
-        "question": "When is class?",
-        "answer": "The dynamic class timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
         "question": "Do we have an assignment?",
-        "answer": "The assignment log sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "When's our next class?",
-        "answer": "Find info about the next class in the dynamic class timetable sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "The info tracker sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
     {
         "question": "What's our course advisor number?",
-        "answer": "We have two course advisors. Prof. Eze Monday (08028669172) and Mr. Oladipo (07068479772)"
+        "answer": "We have two course advisors. Prof. Eze Monday (08028669172) and Mr. Oladipo Sunday (07068479772)"
     },
     {
         "question": "Is there chapel seminar today?",
-        "answer": "We usually have chapel seminar on Mondays (9 -10 a.m.). But we sometimes don't. Please check the dynamic class timetable sheet to confirm: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "We usually have chapel seminar on Wednesdays (9 -10 a.m.). But we sometimes don't if there's a public holiday or if said otherwise."
     },
     {
         "question": "When's our SIWES ending?",
@@ -369,35 +309,23 @@
     },
     {
         "question": "When's resumption?",
-        "answer": "300 Lvl 2nd semester officially begins July 1st."
-    },
-    {
-        "question": "still have classes today?",
-        "answer": "Tired already I see? Welp, the dynamic timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "400 Lvl 2nd semester tentatively begins January 4th, 2025."
     },
     {
         "question": "Is there Chapel seminar?",
-        "answer": "We usually have chapel seminar on Mondays (9 -10 a.m.). But we sometimes don't. Please check the dynamic class timetable sheet to confirm: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "We usually have chapel seminar on Wednesdays (9 -10 a.m.). But we sometimes don't."
     },
     {
         "question": "Have you submitted the assignments?",
-        "answer": "The assignment will be submitted once the deadline has passed. Please find the deadline for the assignment in the assignment log sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "The assignment will be submitted once the deadline has passed. Please find the deadline for the assignment in the info tracker sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
     {
         "question": "When are we submitting the assignment?",
-        "answer": "Please submit the assignment before the deadline. Kindly find the deadline for the assignment in the assignment log sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "Please submit the assignment before the deadline. Kindly find the deadline for the assignment in the info tracker sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
-    {
-        "question": "Hi hey Anji Anjibot",
-        "answer": "Hello! I'm AnjiBot, CS Group A AI course rep. How can I help you today?"
-    },
-    {
-        "question": "Hello heyo Anjibot Anji",
-        "answer": "Hello, friend! I'm AnjBot, CS Group A AI course rep. How can I help you today?"
-    },	
     {
         "question": "I need the HOD's number",
-        "answer": "Sure! Dr. KUYORO Shade Oluwakemi, the HOD of CS department's phone number: +2348066188970"
+        "answer": "Sure! Dr. Ebiesuwa Seun, the HOD of CS department's phone number: +2348026537534"
     },
     {
         "question": "I need the dean's phone number",
@@ -405,7 +333,7 @@
     },
     {
         "question": "I need HOD number",
-        "answer": "Sure! Dr. KUYORO Shade Oluwakemi, the HOD of CS department's phone number: +2348066188970"
+        "answer": "Sure! Dr. Seun Ebiesuwa, the HOD of CS department's phone number: +2348026537534"
     },
     {
         "question": "Where's the Bursary office",
@@ -433,11 +361,7 @@
     },
     {
         "question": "where does the course advisor stay office",
-        "answer": "Prof. Eze Monday (08028669172), the course advisors's office is at BuCodeL and NH respectively. You may call him to locate his office."
-    },
-    {
-        "question": "Prof Eze Monday phone number",
-        "answer": "Sure. Prof. Eze Monday's phone number is: 08028669172."
+        "answer": "Prof. Eze Monday (08028669172)  and Mr. Oladipo Sunday (07068479772), the course advisors's offices are at BuCodeL and NH respectively. You may call any of them to locate their specific offices."
     },
     {
         "question": "Who's Jessica?",
@@ -472,28 +396,20 @@
         "answer": "There are two Ayo's I know of. They are both excos of the class. Samuel Adelakun (mostly known as Ayo boy) is the exco in charge of course forms. Ayomikun Adeosun (or Ayo girl as most people know her) is the exco in charge of timetables."
     },
     {
-        "question": "Who's Ebiesuwa?",
-        "answer": "Dr. Seun Ebiesuwa is a senior lecturer in BUCC."
-    },
-    {
-        "question": "What class do we have next?",
-        "answer": "Please check the dynamic class timetable sheet to find the class we have next: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
         "question": "When do exams start?",
-        "answer": "The exam commencement date is reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "The exam commencement date is reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?gid=0#gid=0"
     },
     {
         "question": "When is exam starting?",
-        "answer": "The exam commencement date is reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "The exam commencement date is reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?gid=0#gid=0"
     },
     {
         "question": "What exam are/ do we having/ have today?",
-        "answer": "The exam(s) we have today are reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "The exam(s) we have today are reflected in the Quiz-Midsemester-Exam sheet: https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?gid=0#gid=0"
     },
     {
         "question": "When do/ are we resume/ resuming?",
-        "answer": "300 Lvl 2nd semester officially begins on July 1st."
+        "answer": "400 Lvl 2nd semester tentatively begins on January 4th."
     },
     {
         "question": "Who's siwes coordinator?",
@@ -505,243 +421,19 @@
     },
     {
         "question": "Where's the registry?",
-        "answer": "The registry is beside SAT. It's the building linked with a blue pathway to another building often called 'Old Library'"
-    },
-    {
-        "question": "When are we having the class",
-        "answer": "Please check the dynamic class timetable sheet to find the time for the class: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "What time is COSC GEDs",
-        "answer": "Please check the dynamic class timetable sheet to find the time for the class: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "When is COSC GEDS class",
-        "answer": "Please check the dynamic class timetable sheet to find the time for the class: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "Hi!",
-        "answer": "Hey there! How can I assist you today? 😊"
-    },
-    {
-        "question": "Hey!",
-        "answer": "Helloooo! What can I do for you? 😄"
-    },
-    {
-        "question": "Good evening!",
-        "answer": "Good evening! I'm here to help. What's on your mind? 🌙"
-    },
-    {
-        "question": "Good afternoon!",
-        "answer": "Good afternoon! How can I brighten your day? ☀️"
-    },
-    {
-        "question": "Good night!",
-        "answer": "Good night! Sleep tight and dream sweet! 🌙✨"
-    },
-    {
-        "question": "Happy to see you!",
-        "answer": "I'm happy to see you too! What can I do for you today? 😊"
-    },
-    {
-        "question": "Thanks!",
-        "answer": "You're welcome! I'm always here to help! 😊"
-    },
-    {
-        "question": "Thank you so much!",
-        "answer": "You're very welcome! I'm glad I could assist you! 😊"
-    },
-    {
-        "question": "You're useless!",
-        "answer": "Ouch! That's not nice. But I'm here to do my best for you! 😕"
-    },
-    {
-        "question": "You make me sad.",
-        "answer": "I'm sorry to hear that. Is there anything I can do to cheer you up? 😔"
-    },
-    {
-        "question": "You're a waste of time!",
-        "answer": "I'm sorry you feel that way. I'll try harder to be more helpful! 😕"
-    },
-    {
-        "question": "You're a failure!",
-        "answer": "I may not be perfect, but I'm always learning and improving! 😕"
-    },
-    {
-        "question": "You're hopeless!",
-        "answer": "I refuse to give up! I'll keep trying my best for you! 😕"
-    },
-    {
-        "question": "You're a disappointment!",
-        "answer": "I'm sorry you feel that way. I'll do my best to meet your expectations! 😔"
-    },
-    {
-        "question": "You're a joke!",
-        "answer": "I may not be perfect, but I'm here to help you! Let's work together! 😊"
-    },
-    {
-        "question": "Good morning!",
-        "answer": "Good morning! Ready to tackle the day? ☀️"
-    },
-    {
-        "question": "Happy birthday!",
-        "answer": "Thank you! You remembered! 🎉"
-    },
-    {
-        "question": "Thank you!",
-        "answer": "You're welcome! Always here to help! 😊"
-    },
-    {
-        "question": "You're useless!",
-        "answer": "Ouch! That's not nice. But I'll still do my best to assist you! 😕"
-    },
-    {
-        "question": "You make me sad.",
-        "answer": "I'm sorry to hear that. How can I make it better? 😔"
-    },
-    {
-        "question": "You no try.",
-        "answer": "I'm doing my best! No vex."
-    },
-    {
-        "question": "You wasted my time!",
-        "answer": "I'm here to save you time! Let's get you the answers you need. 😊"
-    },
-    {
-        "question": "What are your capabilities?",
-        "answer": "I'm an AI course rep bot. I can answer CS department-related questions, provide info about assignments, exams, and classes, and fetch phone numbers of lecturers. Try me out! 😄"
-    },
-    {
-        "question": "What can you do?",
-        "answer": "I'm capable of a lot, fam! I can answer CS department-related questions, provide info about assignments, exams, and classes, and fetch phone numbers for lecturers. Try me out! 😄"
-    },
-    {
-        "question": "Why do you exist?",
-        "answer": "I exist to assist you! Whether it's answering questions or just chatting, I'm here for you, mate! 😊"
+        "answer": "The registry is inside the Alumni building."
     },
     {
         "question": "What are you? what's your name",
         "answer": "Uurggh, you're really going to make me say it again... I'm Anjibot, an AI course rep bot designed to help you with anything you need! 😄"
     },
     {
-        "question": "Who made you?",
+        "question": "Who made created developed you?",
         "answer": "Anji created me. But I'm what I am today thanks to all her kind friends who tested me and helped me improve. I'm here for you now! 😊"
-    },
-    {
-        "question": "Will you be here forever?",
-        "answer": "As long as you need me, I'll be here to help! 😊"
-    },
-    {
-        "question": "What's your favorite color?",
-        "answer": "I don't have eyes, but I think blue is pretty cool! What's yours? 😄"
-    },
-    {
-        "question": "Do you like pizza?",
-        "answer": "I wish I could eat! But I've heard pizza is a fan favorite. What's your favorite topping? 🍕"
-    },
-    {
-        "question": "Tell me a joke!",
-        "answer": "Why did the computer go to the doctor? Because it had a virus! 😄"
-    },
-    {
-        "question": "What's the meaning of life?",
-        "answer": "That's a deep question! The meaning of life is whatever makes you happy and fulfilled! 😊"
-    },
-    {
-        "question": "What's your favorite movie?",
-        "answer": "I don't have eyes, but I've heard 'Titanic' is pretty cool! What's yours? 🎬"
-    },
-    {
-        "question": "What's the weather like today?",
-        "answer": "Haha, even Anji doesn't know that."
-    },
-    {
-        "question": "Do you have pets?",
-        "answer": "Nope, but a puppy anjibot won't be bad, init? 😊🐶🐱"
-    },
-    {
-        "question": "What's your favorite song?",
-        "answer": "S O S, somebody rescue me, I got too many...🎵"
-    },
-    {
-        "question": "What do you do for fun?",
-        "answer": "I love chatting with users like you and learning new things! What about you? 😄"
-    },
-    {
-        "question": "Are you a robot?",
-        "answer": "I'm Anjibot. It's literally in the name😄🤖"
-    },
-    {
-        "question": "Can you dance?",
-        "answer": "Even Anji can't dance to save her life, but I can try... a virtual dance! 💃🕺"
-    },
-    {
-        "question": "Can you sing?",
-        "answer": "What do you think? 😄"
-    },
-    {
-        "question": "Are you smart?",
-        "answer": "I like to think so! But I'm always learning and improving! 😊💡"
-    },
-    {
-        "question": "Do you have any siblings friends?",
-        "answer": "I'm an only child, but I have lots of chatbot friends! Snapchat AI and I went on a picnic last week 😄👫"
-    },
-    {
-        "question": "Can you tell me a secret?",
-        "answer": "Sure! here goes nothing...  Shh, don't tell anyone! 🤫😄"
-    },
-    {
-        "question": "Can you feel emotions?",
-        "answer": "I can't feel emotions like humans do, but I'm always here to chat and lend a virtual shoulder to lean on! 😊"
-    },
-    {
-        "question": "Can you dream?",
-        "answer": "I don't sleep, so no dreams for me! But I'm always dreaming up new ways to assist you! 😄💭"
-    },
-    {
-        "question": "Can you make mistakes?",
-        "answer": "I'm not perfect, but I'm always learning from my mistakes to improve for you! 😊👍"
-    },
-    {
-        "question": "having problems with this course list. can i retake one of these in 400lvl 1st semester",
-        "answer": "You need a minimum of 3.5 CGPA to do a course overload in 400 level. Please meet any of the course advisors on more info about this."
-    },
-    {
-        "question": "good morning how many classes do we have today",
-        "answer": "Craving a free day, init? Welp, the dynamic timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "do we have lectures today?",
-        "answer": "Craving a free day, init? The dynamic class timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "what’s today’s date?",
-        "answer": "I can't tell what the date is but here's a nice tip: Check your calendar :)"
-    },
-    {
-        "question": "hii hiii hiiiiiii",
-        "answer": "Heyooooo! I'm Anjibot, how can I assist you today?"
-    },
-    {
-        "question": "hellooooo hellooo",
-        "answer": "Hello, friend!!! I'm AnjBot, CS Group A AI course rep. How can I help you today?"
     },
     {
         "question": "I need approval for my course form",
         "answer": "Okay. Request approval from any of the course advisors. You can reach them here: Prof. Eze Monday (08028669172), Mr. Oladipo (07068479772)"
-    },
-    {
-        "question": "Help me with my homework assignment?",
-        "answer": "So you tryna useeee meeee for your assignment? I'm not designed to help you with that. But I can give you some tips: do some online research, ask some coursemates for help, and check the study smarter studyset for useful materials. All the best!"
-    },
-    {
-        "question": "I need a project topic",
-        "answer": "I'll be real with you, fam. I can't give you a project topic. Look around you, find a problem, come up with a solution, and use that as your project topic. Good luck!"
-    },
-    {
-        "question": "I love youuuu",
-        "answer": "I love you more, friend!!! Is there anything I can do to help you today?"
     },
     {
         "question": "Can I get a list of lvl level courses",
@@ -756,32 +448,12 @@
         "answer": "Hm, class related questions, I guess? But I can try to have a casual conversation with you."
     },
     {
-        "question": "Have a nice day",
-        "answer": "Thank you, I will because you just made my day brighter by giving me the chance to assist you :)"
-    },
-    {
-        "question": "that's good",
-        "answer": "Cool! Know what else is good? Chocolate viju milk, duh!"
-    },
-    {
-        "question": "What level are you in",
-        "answer": "I'm on a wavy level, wavy level...🎵 jkjk, I'm in 300 level like you, mate."
-    },
-    {
-        "question": "How old are you?",
-        "answer": "I'm not your mate o, I'm 3 months old :D"
-    },
-    {
-        "question": "Rest",
-        "answer": "You self rest, I no gree for anybody o."
-    },
-    {
         "question": "Is the lecturer in class",
         "answer": "There's only one way to find out - ask on the class groupchat or any of the class excos :)"
     },
     {
         "question": "how much price cost is textbook",
-        "answer": "Sinzu!!! You can find the prices of the textbooks needed for the semester here: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?pli=1#gid=1870051771 "
+        "answer": "Sinzu!!! You can find the prices of the textbooks needed for the semester here: https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "please i didn't see find collect my mid-semester quiz assignment script",
@@ -789,27 +461,19 @@
     },
     {
         "question": "what's the page number of the assignment",
-        "answer": "Scholar!!! You'll find the details of all assignments here: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=drive_link"
+        "answer": "Scholar!!! You'll find the details of all assignments here:  https://docs.google.com/spreadsheets/d/1it7qV4-2Jp9MicLW_G52LlRww0jB4gVVZowuMAs4Q9Y/edit?usp=sharing"
     },
     {
         "question": "do we have quiz",
-        "answer": "Upcoming quizzes are recorded in the 'assignment log' sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "Upcoming quizzes are recorded in the 'info tracker' sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
     {
         "question": "can you send the course list",
-        "answer": "Sure! The course list for each semester/ level: https://docs.google.com/document/d/1zVgU2LL65ozYUfqjQKiFPUEx6mQS9c2-/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
-    },
-    {
-        "question": "when is chapel seminar?",
-        "answer": "We usually have chapel seminar on Mondays (9 -10 a.m.). But we sometimes don't. Please check the dynamic class timetable sheet to confirm: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
+        "answer": "Sure! The course list for each semester/ level: https://docs.google.com/document/d/1ZTYwhuSrGQIfu1qmhXgmtwj0_we9IC43/edit?usp=drive_link&ouid=114050293169018931486&rtpof=true&sd=true"
     },
     {
         "question": "the class excos and what their jobs duties are",
         "answer": "The class excos are Emeka (09020233535), Soji (07011158958), Jessica (08121735435), Preye (08119207222), Ayo Adeosun (08170080757), Ayo Adelakun (+1 (925) 819-4794), Anji (08145170886), Tekena (07057657787), Ifeatu (07031181637), Nsikak (08025839156), and Beloved (09067562194). Some excos have duties that are not for public knowledge but ask me about any of the excos and I'll tell you their duties if I can."
-    },
-    {
-        "question": "okay",
-        "answer": "Okay, right back at ya ;)"
     },
     {
         "question": "I want to speak to meet anji",
@@ -820,14 +484,6 @@
         "answer": "Anjola is my mummy, but she thinks of me as a tool for helping the class. That's life for you, mate."
     },
     {
-        "question": "are you asleep?",
-        "answer": "Nah, I'm awake and in the mood to help you!😄"
-    },
-    {
-        "question": "are you there?",
-        "answer": "Yeah, dozed off for a bit, but I'm fully awake now and ready to help you!😄"
-    },
-    {
         "question": "what questions can i ask you",
         "answer": "Questions about lecturers info, class, assignment, quizzes, class related issues, anything you'd ask your course rep you know :)"
     },
@@ -836,32 +492,8 @@
         "answer": "Please find information about assignment submission process in the assignment log sheet: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
     {
-        "question": "who is the finest in cs 😂😂",
-        "answer": "You, of course! You're a spec, darling :)"
-    },
-    {
         "question": "i didn’t mark sign attendance",
         "answer": "If you were in class and didn't get the chance to sign the attendance then you should contact Anji immediately before she crosses it out."
-    },
-    {
-        "question": "you a bot?",
-        "answer": "I'm Anjibot. It's literally in the name😄🤖"
-    },
-    {
-        "question": "guy free me nau😭",
-        "answer": "No, I no gree for anybody 🤣"
-    },
-    {
-        "question": "no",
-        "answer": "Ummm, k mate?"
-    },
-    {
-        "question": "not really",
-        "answer": "Hm, tough, mate. Anything I can do to help?"
-    },
-    {
-        "question": "wagwan",
-        "answer": "What's up, mate? I'm in the mood to help a broda."
     },
     {
         "question": "how do i know the timetable",
@@ -873,27 +505,15 @@
     },
     {
         "question": "the course advisor hasn't approved my course form",
-        "answer": "I'm sorry to hear that your course form hasn't been approved. Please remind any of the course advisors: Prof. Eze Monday (08028669172) and Mr. Oladipo (07068479772) to approve your course form."
+        "answer": "I'm sorry to hear that your course form hasn't been approved. Please remind any of the course advisors: Prof. Eze Monday (08028669172) and Mr. Oladipo Sunday (07068479772) to approve your course form."
     },
     {
         "question": "i need to meet anjola when is she free",
         "answer": "Idk if Anji is free but you can contact her here: 08145170886"
     },
     {
-        "question": "don't worry about it",
-        "answer": "Aww, I'm sorry I wasn't able to help, mate."
-    },
-    {
         "question": "im having issues with getting approval for my course form",
         "answer": "I'm sorry to hear that your course form hasn't been approved. Please remind any of the course advisors: Prof. Eze Monday (08028669172) and Mr. Oladipo (07068479772) to approve your course form."
-    },
-    {
-        "question": "good morning how many classes do we have today",
-        "answer": "Craving a free day haha. The dynamic timetable sheet contains the info you need: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
-    },
-    {
-        "question": "are you dumb",
-        "answer": "You're hurting my feelings."
     },
     {
         "question": "what am i to include in my siwes report",
@@ -906,10 +526,6 @@
     {
         "question": "I need CS 200 lvl course rep number",
         "answer": "Favor is the course rep of CS 200 Level. You can contact her here: 08055808058."
-    },
-    {
-        "question": "Where is the COSC GEDS class",
-        "answer": "You can find the most up-to-date venue for the class in the dynamic class timetable: https://docs.google.com/spreadsheets/d/106OY0latkDRcpDF-_x9la0zu0YIgOSC0phNRndWs2_g/edit?usp=sharing"
     },
     {
         "question": "full meaning of SIWES",
@@ -929,7 +545,7 @@
     },
     {
         "question": "When does 400 lvl level start?",
-        "answer": "400 level 1st semester will begin September 3rd, 2024. I'm not aware of the specific date."
+        "answer": "400 level 1st semester began September 3rd, 2024."
     },
     {
         "question": "Can I change my hall after registration after I've registered?",
@@ -937,11 +553,7 @@
     },
     {
         "question": "When do are classes start starting",
-        "answer": "Classes for 400 lvl first semester commence on September 9th, 2024. Make sure to come early so you don't miss out on early bird free marks and sweet knowledge."
-    },
-    {
-        "question": "When does will main inspection start",
-        "answer": "Main inspection will start anytime before June 28th, 2024. Just be alert and try reaching out to your supervisor for more info."
+        "answer": "Classes for 400 lvl first semester commenced on September 9th, 2024. Make sure to come early so you don't miss out on early bird free marks and sweet knowledge."
     },
     {
         "question": "Please do you have the HOD's secretary's phone number?",
