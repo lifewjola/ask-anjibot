@@ -1,11 +1,10 @@
 # Required imports
 import json
 import spacy
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from components.groq_response import get_groq_response
 
-nlp = spacy.load("en_core_web_md")  
+nlp = spacy.load("en_core_web_lg")  
 dataset_path = "Datasets/anjibot_data.json"
 
 def load_qa_file(file_path):
@@ -13,7 +12,7 @@ def load_qa_file(file_path):
         return json.load(file)
 
 def get_embedding(text):
-    return nlp(text).vector 
+    return nlp(text) 
 
 def answer_general_query(user_question):
     qa_data = load_qa_file(dataset_path)
@@ -22,7 +21,7 @@ def answer_general_query(user_question):
     question_embeddings = np.array([get_embedding(question) for question in questions])
     user_question_embedding = get_embedding(user_question).reshape(1, -1)
     
-    similarities = cosine_similarity(user_question_embedding, question_embeddings)
+    similarities = user_question_embedding.similarity(question_embeddings)
     most_similar_index = np.argmax(similarities)
     max_similarity = similarities[0][most_similar_index]
     
