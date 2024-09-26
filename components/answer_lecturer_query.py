@@ -25,16 +25,15 @@ def answer_lecturer_query(query):
         return "I'm sorry, I need more information to assist you."
 
     elif max_score >= 1:
-        if "no" in query or "number" in query:
+        if "number" in query and "office" in query:
+            if best_match['phone_number']:
+                return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']} and the office is at {best_match['office']}."
+        elif "no" in query or "number" in query:
             if best_match['phone_number']:
                 return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']}."
         elif "office" in query:
             if best_match['office']:
                 return f"Sure thing! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's office is at {best_match['office']}."
-        if "number" in query and "office" in query:
-            if best_match['phone_number']:
-                return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']} and the office is at {best_match['office']}."
-
         else:
             return f"{best_match['name']} is the {best_match['course']} ({best_match['course_code']}) lecturer."
     else:
