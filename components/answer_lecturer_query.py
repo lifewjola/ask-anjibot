@@ -20,21 +20,22 @@ def answer_lecturer_query(query):
         if score > max_score:
             max_score = score
             best_match = row
+    course_code_prefix = ["cosc", "geds", "ged", "math", "stat", "stats", "seng", "itgy"]
+    if any(word in query for word in course_code_prefix):
+        if max_score < 2:
+            return "I'm sorry, I couldn't find any information on the lecturer you're asking about."
 
-    if len(query.split()) == 1:
-        return "I'm sorry, I need more information to assist you."
-
-    elif max_score >= 1:
-        if "number" in query and "office" in query:
-            if best_match['phone_number']:
-                return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']} and the office is at {best_match['office']}."
-        elif "no" in query or "number" in query:
-            if best_match['phone_number']:
-                return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']}."
-        elif "office" in query:
-            if best_match['office']:
-                return f"Sure thing! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's office is at {best_match['office']}."
+        elif max_score >= 1:
+            if "number" in query and "office" in query:
+                if best_match['phone_number']:
+                    return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']} and the office is at {best_match['office']}."
+            elif "no" in query or "number" in query:
+                if best_match['phone_number']:
+                    return f"Sure! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's phone number is {best_match['phone_number']}."
+            elif "office" in query:
+                if best_match['office']:
+                    return f"Sure thing! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's office is at {best_match['office']}."
+            else:
+                return f"{best_match['name']} is the {best_match['course']} ({best_match['course_code']}) lecturer."
         else:
-            return f"{best_match['name']} is the {best_match['course']} ({best_match['course_code']}) lecturer."
-    else:
-        return answer_general_query(query)
+            return answer_general_query(query)
