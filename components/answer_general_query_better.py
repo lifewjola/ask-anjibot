@@ -8,24 +8,27 @@ from components.anjibot_logging import append_to_sheet
 import streamlit as st
 
 dataset_path = "Datasets/anjibot_data.json"
-model = SentenceTransformer("Alibaba-NLP/gte-Qwen2-1.5B-instruct", trust_remote_code=True)
-
+model = SentenceTransformer("nomic-ai/nomic-embed-text-v1", trust_remote_code=True)
+context = ['search_document: TSNE is a dimensionality reduction algorithm created by Laurens van Der Maaten']
+context_embeddings = model.encode(context)
+query = ['search_query: Who is Laurens van Der Maaten?']
+query_embeddings = model.encode(query)
 
 def load_qa_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def embed_questions(questions):
-    return model.encode(questions)
+def embed_context(context):
+    return model.encode(["search_document:" + context])
 
 def embed_query(query):
-    return model.encode([query])
+    return model.encode(['search_query:' + query])
 
 def answer_general_query(user_question):
     qa_data = load_qa_file(dataset_path)
     
     questions = [item['question'] for item in qa_data]
-    question_embeddings = embed_questions(questions)
+    question_embeddings = embed_context(questions)
     
     user_question_embedding = embed_query(user_question)
     

@@ -32,3 +32,5 @@ app_groq.py
 qa_answers.txt
 rag.py
 anjibot_data.md
+components/experiment.ipynb
+components/answer_general_query.py
