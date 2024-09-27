@@ -5,7 +5,8 @@ from components.answer_lecturer_query import answer_lecturer_query
 import time
 
 def get_intent(query):
-    lecturer_keywords = ["who", "name", "lecturer", "lecturer's" "phone number", "no", "phone", "number", "office"]
+    lecturer_keywords = ["who", "name", "lecturer", "lecturer's" "phone number", "no", 
+                         "phone", "number", "office"]
     doc_link_keywords = ["past questions", "pstq", "study materials", "flashcards", "studysmarter",
                          "study smarter", "slides", "slide", "pdf"]
     unknown_keywords = ["class"]
@@ -33,7 +34,7 @@ def handle_query(query):
         response =  "I'm sorry but I can't help with that. Please reach out to Anji, the human course rep, or any of the class excos."
     else:
         response = answer_general_query(query)
-    
-    for word in response.split():
-        yield word + " "
+
+    for word in response:
+        print(word, end="")
         time.sleep(0.05)
