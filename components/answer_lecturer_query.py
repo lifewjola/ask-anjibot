@@ -36,7 +36,7 @@ def answer_lecturer_query(query):
             elif "office" in query:
                 if best_match['office'] == "No longer in Babcock":
                     return f"Oops! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's is {best_match['office']}."
-                elif best_match['office']:
+                else:
                     return f"Sure thing! {best_match['name']} the {best_match['course']} ({best_match['course_code']}) lecturer's office is at {best_match['office']}."         
             else:
                 return f"{best_match['name']} is the {best_match['course']} ({best_match['course_code']}) lecturer."

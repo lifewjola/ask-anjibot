@@ -35,6 +35,6 @@ def handle_query(query):
     else:
         response = answer_general_query(query)
 
-    for word in response:
-        print(word, end="")
-        time.sleep(0.05)
+    for word in response.split():
+            yield word + " "
+            time.sleep(0.05)
