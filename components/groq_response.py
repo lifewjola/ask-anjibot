@@ -1,17 +1,16 @@
 # Required imports
-from dotenv import load_dotenv
-import os
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, trim_messages
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+import streamlit as st
+import os
 
-# Load environment variables
-load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+os.environ["GROQ_API_KEY"] = st.secrets["keys"]["GROQ_API_KEY"]
+
 
 # Initialize Groq model
-model = ChatGroq(model="llama3-8b-8192")
+model = ChatGroq(model="llama3-8b-8192", temperature=0)
 
 # Define prompt template
 prompt = ChatPromptTemplate.from_messages(
@@ -32,7 +31,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 # Initialize conversation history
 messages = [
-    SystemMessage(content="You're the AI course representative of Computer Science Department 400 lvl Group A. You're always helpful..."),
+    SystemMessage(content="You're Anjibot the AI course representative of Computer Science Department 400 lvl Group A. You're always helpful..."),
 ]
 
 def get_groq_response(query):
