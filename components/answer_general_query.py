@@ -41,5 +41,3 @@ def answer_general_query(user_question):
         return qa_data[most_similar_index]['answer']
     else:
         return get_groq_response(user_question)
-
-answer_general_query("Hello")

@@ -33,6 +33,7 @@ def handle_query(query):
         response =  "I'm sorry but I can't help with that. Please reach out to Anji, the human course rep, or any of the class excos."
     else:
         response = answer_general_query(query)
+    
     for word in response.split():
         yield word + " "
         time.sleep(0.05)
