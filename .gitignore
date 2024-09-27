@@ -1,7 +1,3 @@
-# Ignore Python virtual environments
-venv/
-env/
-
 # Ignore Python bytecode and cache files
 __pycache__/
 *.py[cod]
@@ -11,15 +7,6 @@ __pycache__/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Ignore local configuration files
-.DS_Store
-.idea/
-.vscode/
-*.log
-
-# Ignore Python packages
-*.egg-info/
 
 # ignore google cloud secrets
 anjibot-435113-7c0712b3fd28.json
