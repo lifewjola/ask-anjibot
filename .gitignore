@@ -33,4 +33,4 @@ qa_answers.txt
 rag.py
 anjibot_data.md
 components/experiment.ipynb
-components/answer_general_query.py
+components/answer_general_query_better.py
